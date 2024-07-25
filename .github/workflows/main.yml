@@ -13,7 +13,7 @@ jobs:
       - name: Passo 2
         run: echo "Publicar a imagem no Docker Hub"
   CD:
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     steps:
       - name: Passo 1
         run: echo "Deploy da aplicação"
